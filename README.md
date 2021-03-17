@@ -16,3 +16,6 @@ https://www.postgresqltutorial.com/
 \d resources
 # show data
 select * from resources;
+
+# time string to time.Time
+time.Parse(time.RFC3339, "2012-11-01T22:08:41+00:00")
